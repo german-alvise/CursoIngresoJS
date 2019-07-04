@@ -4,6 +4,8 @@
 */
 function mostrar()
 {
-
+	var dato
+		dato = prompt("german");
+		document.getElementById("elNombre").value=dato;
 }
 
