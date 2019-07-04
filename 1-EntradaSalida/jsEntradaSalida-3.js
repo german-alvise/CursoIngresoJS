@@ -2,6 +2,16 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
+    var dato
+     dato = document.getelementbyid("elNombre").value;
+      alert(dato);
+
+
+
+
+
+
+
 
 
 }
