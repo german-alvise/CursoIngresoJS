@@ -10,11 +10,6 @@ function mostrar() {
     suma = suma + numero;
 
   }
-
-
-
-
-
   document.getElementById('suma').value = suma;
   document.getElementById('promedio').value = suma / 5;
 
