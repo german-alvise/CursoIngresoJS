@@ -5,13 +5,13 @@ en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
 	var importe;
-  var resultado;
+  	var resultado;
 
-  importe=document.getElementById("importe").value;
+  		importe=document.getElementById("importe").value;
 
-  importe=parseInt(importe);
-  resultado=parseInt(resultado);
+	  	importe=parseInt(importe);
+  		resultado=parseInt(resultado);
 
-  resultado=(importe-((25*importe)/100));
-  document.getElementById("resultado").value=resultado;
+ 	 		resultado=(importe-((25*importe)/100));
+  			document.getElementById("resultado").value=resultado;
 }

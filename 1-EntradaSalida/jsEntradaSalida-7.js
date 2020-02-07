@@ -3,58 +3,86 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/
 function sumar()
-{	var num1
-  var num2
+{	
+  var PrimerNumero;
+  var SegundoNumero;
+  var suma;
 
-  num1=document.getElementById("numeroUno").value;
-  num2=document.getElementById("numeroDos").value;
+      PrimerNumero=document.getElementById("numeroUno").value;
+      console.log(PrimerNumero);
+      
+      SegundoNumero=document.getElementById("numeroDos").value;
+      console.log(SegundoNumero);
 
-  num1=parseInt(num1);
-  num2=parseInt(num2);
+       PrimerNumero=parseInt(PrimerNumero);
+       SegundoNumero=parseInt(SegundoNumero);
 
-  alert("la suma es ="+(num1+num2));
+         suma=PrimerNumero+SegundoNumero;
+
+            alert("la suma es ="+(suma));
 
 }
 
 function restar()
-{var num1
-  var num2
+{
+  var PrimerNumero;
+  var SegundoNumero;
+  var resta;
 
-  num1=document.getElementById("numeroUno").value;
-  num2=document.getElementById("numeroDos").value;
+      PrimerNumero=document.getElementById("numeroUno").value;
+      console.log(PrimerNumero);
+     
+      SegundoNumero=document.getElementById("numeroDos").value;
+      console.log(SegundoNumero);
 
-  num1=parseInt(num1);
-  num2=parseInt(num2);
+        PrimerNumero=parseInt(PrimerNumero);
+        SegundoNumero=parseInt(SegundoNumero);
 
-  alert("la resta es ="+(num1-num2));
+        resta=PrimerNumero-SegundoNumero;
+
+          alert("la resta es ="+(resta));
 
 }
 
 function multiplicar()
-{ var num1
-  var num2
+{ 
+  var PrimerNumero;
+  var SegundoNumero;
+  var multiplicacion;
 
-  num1=document.getElementById("numeroUno").value;
-  num2=document.getElementById("numeroDos").value;
+    PrimerNumero=document.getElementById("numeroUno").value;
+    console.log(PrimerNumero);
+    
+    SegundoNumero=document.getElementById("numeroDos").value;
+    console.log(SegundoNumero);
+    
+      PrimerNumero=parseInt(PrimerNumero);
+      SegundoNumero=parseInt(SegundoNumero);
 
-  num1=parseInt(num1);
-  num2=parseInt(num2);
+      multiplicacion=PrimerNumero*SegundoNumero
 
-  alert("el resultado es= "+(num1*num2));
+        alert("el resultado es= "+(multiplicacion));
 
 }
 
 function dividir()
-{var num1
-  var num2
+{
+  var PrimerNumero;
+  var SegundoNumero;
+  var division;
 
-  num1=document.getElementById("numeroUno").value;
-  num2=document.getElementById("numeroDos").value;
+    PrimerNumero=document.getElementById("numeroUno").value;
+    console.log(PrimerNumero);
+  
+    SegundoNumero=document.getElementById("numeroDos").value;
+    console.log(SegundoNumero);
 
-  num1=parseInt(num1);
-  num2=parseInt(num2);
+      PrimerNumero=parseInt(PrimerNumero);
+      SegundoNumero=parseInt(SegundoNumero);
 
-  alert("el resto es="+(num1/num2));
+       division=PrimerNumero/SegundoNumero;
+
+          alert("el resto es="+(division));
 
 }
 
