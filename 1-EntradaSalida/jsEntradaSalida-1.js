@@ -12,5 +12,5 @@ function mostrar()
 		//alert();sale cartel vacio
 		//alert(primerPre);si la variable no existe no podemos hacer nada 
 }
-
+//testeando git
 /*alert recibe solo valores literales o variables*/
