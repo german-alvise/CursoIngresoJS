@@ -1,6 +1,22 @@
 
 function mostrar() {
-  var cont = 10;
+
+  var contador;
+  contador = 10;
+
+  while (contador > 0) {
+    console.log(contador);
+    contador--;
+
+  }
+  console.log(contador);
+
+
+
+
+
+
+  /*var cont = 10;
 
   do {
     alert(cont);
@@ -9,7 +25,7 @@ function mostrar() {
   } while (cont > 0);
   {
 
-  }
+  }*/
 }//FIN DE LA FUNCIÓN
 
 
