@@ -5,8 +5,9 @@
 //si es Diciembre: "Felices fiesta!!!."
 function mostrar() {
   //tomo la edad
-  var Enero = document.getElementById('mes').value;
-  switch (Enero) {
+  var Mes;
+  Mes = document.getElementById('mes').value;
+  switch (Mes) {
     case "Enero":
       alert("que comiences bien el año!!!.");
       break;
