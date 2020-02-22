@@ -4,23 +4,25 @@ function mostrar() {
 
   while (contador < 10) {
 
-    contador = contador + 1;
+    contador = contador + 1;//contador++
     console.log(contador);
+    alert(contador);
+    //document.write(contador + "<br>");
   }
-  console.log(contador);
+
 
 
   // for (var cont = 0; cont < 11; cont++) {
   //alert(cont);
 }
 
-  /* var cont = 0;
-  do {
-    cont++;
-    alert(cont);
-  } while (cont < 10);
-
+/* var cont = 0;
+do {
+  cont++;
   alert(cont);
+} while (cont < 10);
+
+alert(cont);
 */
 
 //FIN DE LA FUNCIÓN*/

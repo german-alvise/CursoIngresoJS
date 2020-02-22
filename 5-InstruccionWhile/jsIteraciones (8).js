@@ -2,10 +2,10 @@
  sumar los que son positivos y multiplicar los negativos.*/
 function mostrar() {
 
-	/*var positivos = 0;
-	var negativos = 0;
+	var positivos = 0;
+	var negativos = 1;
 	var contador = 0;
-	var respuesta;//respuesta es True hasta que se ingrese lo contrario en el confirm
+	var respuesta;
 	var numeroIngresado;
 	respuesta = "si";
 
@@ -18,18 +18,18 @@ function mostrar() {
 		}
 		else {
 			if (numeroIngresado < 0) {
-				negativos = negativos * numeroIngresado;
+			  	negativos=numeroIngresado*negativos ;
 			}
 
 		}
 		respuesta = prompt("ingrese si para ingresar otro numero");
 	}
 	document.getElementById('suma').value = positivos;
-	document.getElementById('producto').value = negativos;*/
+	document.getElementById('producto').value = negativos;
 
-		var acumuladorPositivos = 0;
+/*		var acumuladorPositivos = 0;
 		var acumuladorNegativo = 1;
-		var respuesta = true;
+		var respuesta = true;//respuesta es True hasta que se ingrese lo contrario en el confirm
 		var numero;
 		while (respuesta) {
 			numero = prompt("ingresar numero");
@@ -47,5 +47,5 @@ function mostrar() {
 	
 		document.getElementById('suma').value = acumuladorPositivos;
 		document.getElementById('producto').value = acumuladorNegativo;
-
+*/
 }//FIN DE LA FUNCIÓN
